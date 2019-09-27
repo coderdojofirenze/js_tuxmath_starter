@@ -1,3 +1,80 @@
-* {
-	color: red;
+/* ********************************************************** *
+ * * * * * * * * * * * * * *~~* * * * * * * * * * * * * * * * *
+ *                                                            *
+ * PARTE 1. Definizioni di BASE                               *
+ *                                                            *
+ * * * * * * * * * * * * * *~~* * * * * * * * * * * * * * * * *
+ * ********************************************************** */
+
+:root {
+  --solar-base03-color:    #002b36;
+  --solar-base02-color:    #073642;
+  --solar-base01-color:    #586e75;
+  --solar-base00-color:    #657b83;
+  --solar-base0-color:     #839496;
+  --solar-base1-color:     #93a1a1;
+  --solar-base2-color:     #eee8d5;
+  --solar-base3-color:     #fdf6e3;
+  --solar-yellow-color:    #b58900;
+  --solar-orange-color:    #cb4b16;
+  --solar-red-color:       #dc322f;
+  --solar-magenta-color:   #d33682;
+  --solar-violet-color:    #6c71c4;
+  --solar-blue-color:      #268bd2;
+  --solar-cyan-color:      #2aa198;
+  --solar-green-color:     #859900;
 }
+
+* {
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;  
+    text-align: center;
+    font-family: Lato;
+    border-radius: 10px;
+  }
+
+
+body {
+  background-color: var(--solar-base03-color);
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  margin: 0px;
+  border-radius: 10px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * ~~~Text styles~~~                                         *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.header {
+  color: var(--solar-orange-color);
+  background-color: var(--solar-base2-color);
+  font-size: large;
+}
+
+.footer {
+  color: var(--solar-base03-color);
+  background-color: var(--solar-base2-color);
+  font-size: large;
+}
+
+.normal {
+  font-size: large;
+  font-weight: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+
