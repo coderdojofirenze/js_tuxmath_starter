@@ -280,7 +280,9 @@ Provare a ricaricare la pagina per credere!
 
 Dopo questa fase di sviluppo un po' selvaggio, i tempi sono maturi per fare un'operazione tipica dei pro: un po' di **refactoring** del codice. Questo per prepararci a introdurre le nuove funzionalità più facilmente.
 
-Per prima cosa definiamo una "Classe" che ci permetta di rappresentare in forma astratta una delle nostre bolle con operazione. Nell'ottica di strutturare meglio il codice creiamo dentro la directory `src/js` un nuovo file `bubble.js` e scriviamoci all'interno il seguente codice:
+Per prima cosa definiamo una "Classe" che ci permetta di rappresentare in forma astratta una delle nostre bolle con operazione. Nell'ottica di strutturare meglio il codice creiamo dentro la directory `src/js` un nuovo file `bubble.js` e scriviamoci all'interno il codice che segue.
+
+**NOTA** ricordatevi [che i migliori programmatori sono pigri][LazyProgrammer], quindi nello scrivere questa classe non ripartite da zero ma  cercate dove possibile di ricopiare il codice scritto finora adattandolo.
 
 
 ```javascript
@@ -431,3 +433,4 @@ setInterval(function() {
 [w3schools.com]: https://www.w3schools.com/
 [w3schoolsCanvas]: https://www.w3schools.com/tags/ref_canvas.asp
 [stringTemplate]: https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/template_strings
+[LazyProgrammer]: http://blogoscoped.com/archive/2005-08-24-n14.html
