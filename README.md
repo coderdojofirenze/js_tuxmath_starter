@@ -282,7 +282,7 @@ Dopo questa fase di sviluppo un po' selvaggio, i tempi sono maturi per fare un'o
 
 Per prima cosa definiamo una "Classe" che ci permetta di rappresentare in forma astratta una delle nostre bolle con operazione. Nell'ottica di strutturare meglio il codice creiamo dentro la directory `src/js` un nuovo file `bubble.js` e scriviamoci all'interno il codice che segue.
 
-**NOTA** ricordatevi [che i migliori programmatori sono pigri][LazyProgrammer], quindi nello scrivere questa classe non ripartite da zero ma  cercate dove possibile di ricopiare il codice scritto finora adattandolo.
+**NOTA** ricordatevi [che i migliori programmatori sono pigri][LazyProgrammer], quindi nello scrivere questa classe non ripartite da zero ma  cercate dove possibile di ricopiare il codice scritto finora adattandolo. **EVITATE PERO' DI FARE COPY & PASTE DEL CODICE DA QUESTA PAGINA: QUESTO NON SIGNIFICHEREBBE ESSERE PIGRI BENSI' STUPIDI: SE NON SCRIVETE IL CODICE DA SOLI NON IMPARERETE MAI A PROGRAMMARE. ANZI SE C'E' QUALCOSA CHE NON CAPITE NEL CODICE CHE SCRIVETE CHIEDETE AI MENTOR!**
 
 
 ```javascript
@@ -328,8 +328,6 @@ export default class Bubble {
 
         // regola la velocita' casualmente tra 1 e 5
         this.speed = Math.ceil(Math.random() * 5);
-
-        console.log(`Bolla generata. Centro = [${this.center_x},${this.center_y}], velocità = ${this.speed}. Risultato = ${this.result}`);
 
     }
 
